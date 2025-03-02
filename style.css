@@ -1,0 +1,62 @@
+* {
+    font-family: 'Roboto';
+
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color:#3aa0ff;
+    color: white;
+    text-align: center;
+
+}
+
+button {
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+}
+
+.headtext {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.hero-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    gap: 52px;
+}
+
+.arona-icon {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.buttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text-container {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.arona-container, .sensei-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

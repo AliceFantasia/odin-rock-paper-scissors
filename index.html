@@ -2,11 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors -with Arona</title>
 </head>
 <body>
-    <script src="myScript.js">
-    </script>
+    <div class="container">
+
+        <div class="header">
+            <h1>Rock Paper Scissors with Arona!</h1>
+        </div>
+
+        <div class="hero-section">
+            <img src="aronadefault.png" class="arona-icon">
+            <h1 class="headText" id="roundMessage">First one to get 5 points win the game!</h1>
+            <div class="text-container">
+                <div class="arona-container">
+                    <p id="aronaChoice">Arona plays: </p>
+                    <p id="aronaScore">Arona's score: 0</p>
+                </div>
+                <div class="sensei-container">
+                    <p id="senseiChoice">Sensei plays: </p>
+                    <p id="senseiScore">Sensei's score: 0</p>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="rockBtn">Rock</button>
+                <button id="paperBtn">Paper</button>
+                <button id="scissorsBtn">Scissors</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="myScript.js"></script>
 </body>
 </html>
